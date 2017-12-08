@@ -1,11 +1,13 @@
 header.top-bar {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   height: 100px;
   background: $gray;
   @media #{$tablet} {
     justify-content: space-between;
+    * {
+      margin: 0;
+    }
   }
   img.logo {
     width: 75px;

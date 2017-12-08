@@ -1,15 +1,43 @@
 div.panels {
+  @media #{$desktop} {
+    display: flex;
+  }
   article.panel {
     padding: 5px;
     border: $border-style;
     border-radius: $border-radius;
     margin: 10px auto;
+    @media #{$tablet} {
+      display: flex;
+      align-items: center;
+      p {
+        width: 70%;
+      }
+      &:nth-of-type(even) {
+        div {
+          order: 1;
+        }
+      }
+    }
+    @media #{$desktop} {
+      width: 30%;
+      display: block;
+      p {
+        width: 100%;
+      }
+      div {
+        min-width: 100%; // problem
+      }
+    }
+    div {
+      position: relative;
+      @media #{$tablet} {
+        width: 30%;
+      }
+    }
     img {
       border-radius: 50%;
       border: $border-style;
-    }
-    h3 {
-      position: absolute;
     }
   }
 }

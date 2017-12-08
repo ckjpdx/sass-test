@@ -1,16 +1,22 @@
 section, div {
   padding: $content-padding;
-  margin: $content-margin-y auto;
 }
-
 main {
   max-width: 1200px;
   margin: auto;
   div.intro {
+    max-width: 600px;
     border: $border-style;
     border-radius: $border-radius;
     img {
       max-width: 300px;
+    }
+    @media #{$tablet} {
+      display: flex;
+      align-items: center;
+      img {
+        width: 30%
+      }
     }
   }
 }

@@ -2,6 +2,9 @@
 _epicodus week 3 solo project_
 _by Chris K Johnson_
 
+## Usage
+You must use the responsive browser when viewing smaller pixel widths, otherwise the site will not look right!
+
 ### Two-Day Project Thoughts and Feedback section
 #### Design
 We (my pair and I) drew out a wireframe sketch of two designs for mobile-first, tablet, and desktop views. Working from the top down we created a design that had both graphic-oriented information (hero) as well as main content areas for the majority of the information (body panels, p elements) using graphical elements along the way to break up the content.
@@ -23,3 +26,6 @@ and mixins should be used. I didn't want to use any programming for code only us
 * Use @extend at least once.
 * Put Sass partials into their own directory.
 * Markup all major elements and features using wireframe sketch before styling.
+
+### Bugs
+In the panels section there is a comment "problem" next to a CSS rule that acts odd: using "width" it will not overwrite the last media query set, so "min-width" is used and will force it to the right size. Why won't assigning a new width work? Specificity?! 

@@ -1,0 +1,8 @@
+@mixin transform-centering($t, $r, $b, $l, $x, $y) {
+  position: absolute;
+  top: $t;
+  right: $r;
+  left: $l;
+  bottom: $b;
+  transform: translate($x, $y);
+}
