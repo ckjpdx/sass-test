@@ -5,14 +5,16 @@ $green: #9cc6a4;
 $purple: #67597a;
 $brown: #414535;
 
-$stroke-color: $green;
-$header-color: $brown;
+$stroke-color: $dark;
+$header-color: $purple;
 $subtitle-color: $gray;
 $border-color: $green;
 
 //layout
 $content-padding: 5px;
+$content-margin-y: 10px;
 $border-style: 3px solid $border-color;
+$border-radius: 10px;
 
 // breakpoints
 $tablet: 'screen and (min-width: 500px)';

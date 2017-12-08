@@ -1,7 +1,7 @@
 section.hero {
   @include bg-img-style;
   background-image: url(../img/portland-skyline.jpg);
-  padding: 25px;
+  padding: calc(25vh - 100px) 25px calc(75vh - 100px);
   text-align: center;
   @media #{$tablet} {
     padding: 100px;

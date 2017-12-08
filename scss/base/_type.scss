@@ -1,4 +1,4 @@
-h1, h2, h3, {
+h1, h2, h3, p {
   text-align: center;
 }
 h1 {
@@ -9,4 +9,7 @@ h1 {
 }
 p.subtitle {
   background: $subtitle-color;
+}
+footer p {
+  color: $green;
 }

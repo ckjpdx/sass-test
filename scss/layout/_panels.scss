@@ -1,8 +1,15 @@
 div.panels {
   article.panel {
+    padding: 5px;
+    border: $border-style;
+    border-radius: $border-radius;
+    margin: 10px auto;
     img {
       border-radius: 50%;
       border: $border-style;
+    }
+    h3 {
+      position: absolute;
     }
   }
 }

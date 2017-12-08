@@ -1,5 +1,6 @@
 section, div {
   padding: $content-padding;
+  margin: $content-margin-y auto;
 }
 
 main {
@@ -7,8 +8,13 @@ main {
   margin: auto;
   div.intro {
     border: $border-style;
+    border-radius: $border-radius;
     img {
       max-width: 300px;
     }
   }
+}
+footer {
+  background: $dark;
+  padding: 50px;
 }
