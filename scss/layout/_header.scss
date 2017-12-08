@@ -8,6 +8,15 @@ header.top-bar {
     * {
       margin: 0;
     }
+    div {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      h2 {
+        display: block;
+        padding: 20px;
+      }
+    }
   }
   img.logo {
     width: 75px;
@@ -22,5 +31,8 @@ header.top-bar {
         padding-right: 30px;
       }
     }
+  }
+  h2 {
+    display: none;
   }
 }

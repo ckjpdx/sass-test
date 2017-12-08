@@ -15,21 +15,21 @@ h1, h2, h3, p {
 h1.title {
   font-size: 4em;
   line-height: 1em;
-  color: #67597a;
+  color: #9cc6a4;
   -webkit-text-stroke: 2px;
   -webkit-text-stroke-color: #1c110a;
   position: relative;
   z-index: 2; }
 
 .break {
-  border-top: 3px solid #9cc6a4;
+  border-top: 3px solid #67597a;
   margin-top: 10px; }
 
 p.subtitle {
   background: #7b929d;
   padding: 10px;
   position: relative;
-  top: -10px;
+  top: -8px;
   z-index: 1; }
 
 footer p {
@@ -52,7 +52,7 @@ main {
   margin: auto; }
   main div.intro {
     max-width: 600px;
-    border: 3px solid #9cc6a4;
+    border: 3px solid #67597a;
     border-radius: 10px; }
     main div.intro img {
       max-width: 300px; }
@@ -76,7 +76,14 @@ header.top-bar {
     header.top-bar {
       justify-content: space-between; }
       header.top-bar * {
-        margin: 0; } }
+        margin: 0; }
+      header.top-bar div {
+        display: flex;
+        height: 100%;
+        align-items: center; }
+        header.top-bar div h2 {
+          display: block;
+          padding: 20px; } }
   header.top-bar img.logo {
     width: 75px; }
     @media screen and (min-width: 500px) {
@@ -87,6 +94,8 @@ header.top-bar {
     @media screen and (min-width: 500px) {
       header.top-bar nav a {
         padding-right: 30px; } }
+  header.top-bar h2 {
+    display: none; }
 
 section.hero {
   background-size: cover;
@@ -98,13 +107,16 @@ section.hero {
   @media screen and (min-width: 500px) {
     section.hero {
       padding: 100px; } }
+  @media screen and (min-width: 900px) {
+    section.hero {
+      padding: 150px; } }
 
 @media screen and (min-width: 900px) {
   div.panels {
     display: flex; } }
 div.panels article.panel {
   padding: 5px;
-  border: 3px solid #9cc6a4;
+  border: 3px solid #67597a;
   border-radius: 10px;
   margin: 10px auto; }
   @media screen and (min-width: 500px) {
@@ -130,6 +142,6 @@ div.panels article.panel {
         width: 30%; } }
   div.panels article.panel img {
     border-radius: 50%;
-    border: 3px solid #9cc6a4; }
+    border: 3px solid #67597a; }
 
 /*# sourceMappingURL=styles.css.map */

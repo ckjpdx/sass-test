@@ -6,4 +6,7 @@ section.hero {
   @media #{$tablet} {
     padding: 100px;
   }
+  @media #{$desktop} {
+    padding: 150px;
+  }
 }
