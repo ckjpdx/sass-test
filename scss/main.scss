@@ -1,2 +1,9 @@
+@import "abstracts/variables";
+
 @import "base/reset";
 @import "base/type";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/main";
+@import "layout/panels";

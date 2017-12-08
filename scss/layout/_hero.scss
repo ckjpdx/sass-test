@@ -1,0 +1,9 @@
+section.hero {
+  @include bg-img-style;
+  background-image: url(../img/portland-skyline.jpg);
+  padding: 25px;
+  text-align: center;
+  @media #{$tablet} {
+    padding: 100px;
+  }
+}

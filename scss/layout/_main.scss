@@ -1,0 +1,14 @@
+section, div {
+  padding: $content-padding;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  div.intro {
+    border: $border-style;
+    img {
+      max-width: 300px;
+    }
+  }
+}

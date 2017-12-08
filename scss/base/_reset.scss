@@ -2,7 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: black;
 }
 img {
   width: 100%;
+  display: block;
+}
+// this is a reset mixin. thats legal, right?
+@mixin bg-img-style {
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
 }
