@@ -20,4 +20,6 @@ and mixins should be used. I didn't want to use any programming for code only us
 | Use sass nesting to keep things organized | Utilize nesting up to a maximum of 4 selectors deep, and DRY features such as the ampersand for element states ie hover. |
 ### New Approach
 * Use more variables and mixins.
-* Use extend at least once.
+* Use @extend at least once.
+* Put Sass partials into their own directory.
+* Markup all major elements and features using wireframe sketch before styling.
