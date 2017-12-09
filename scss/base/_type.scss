@@ -12,19 +12,23 @@ h1.title {
 }
 .break {
   border-top: $border-style;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 p.subtitle {
-  background: $subtitle-color;
+  color: $subtitle-color;
+  background: $subtitle-bg-color;
+  font-size: 1.5em;
   padding: 10px;
   position: relative;
   top: -8px;
   z-index: 1;
+  letter-spacing: 5px;
 }
 footer p {
   color: $green;
 }
 article h3 {
+  font-size: 1.5em;
   color: $green;
   @include transform-centering(75%,unset,unset,50%,-50%,-50%);
 }

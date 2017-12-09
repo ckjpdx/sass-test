@@ -23,19 +23,23 @@ h1.title {
 
 .break {
   border-top: 3px solid #67597a;
-  margin-top: 10px; }
+  margin-top: 30px; }
 
 p.subtitle {
+  color: #414535;
   background: #7b929d;
+  font-size: 1.5em;
   padding: 10px;
   position: relative;
   top: -8px;
-  z-index: 1; }
+  z-index: 1;
+  letter-spacing: 5px; }
 
 footer p {
   color: #9cc6a4; }
 
 article h3 {
+  font-size: 1.5em;
   color: #9cc6a4;
   position: absolute;
   top: 75%;
@@ -53,7 +57,8 @@ main {
   main div.intro {
     max-width: 600px;
     border: 3px solid #67597a;
-    border-radius: 10px; }
+    border-radius: 10px;
+    margin: 30px auto; }
     main div.intro img {
       max-width: 300px; }
     @media screen and (min-width: 500px) {
@@ -66,6 +71,18 @@ main {
 footer {
   background: #1c110a;
   padding: 50px; }
+
+section.take-action *:not(button) {
+  margin: 5px;
+  text-align: center; }
+
+button {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  background: #414535;
+  color: #9cc6a4;
+  font-size: 1em; }
 
 header.top-bar {
   display: flex;

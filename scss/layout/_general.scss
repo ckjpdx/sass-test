@@ -8,6 +8,7 @@ main {
     max-width: 600px;
     border: $border-style;
     border-radius: $border-radius;
+    margin: 30px auto;
     img {
       max-width: 300px;
     }
@@ -23,4 +24,16 @@ main {
 footer {
   background: $dark;
   padding: 50px;
+}
+section.take-action *:not(button) {
+  margin: 5px;
+  text-align: center;
+}
+button {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  background: $brown;
+  color: $green;
+  font-size: 1em;
 }
