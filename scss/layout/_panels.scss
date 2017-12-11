@@ -7,6 +7,11 @@ div.panels {
     border: $border-style;
     border-radius: $border-radius;
     margin: 10px auto;
+    img {
+      border-radius: 50%;
+      width: 66%;
+      border: $border-style;
+    }
     @media #{$tablet} {
       display: flex;
       align-items: center;
@@ -17,6 +22,9 @@ div.panels {
         div {
           order: 1;
         }
+      }
+      img {
+        width: 100%;
       }
     }
     @media #{$desktop} {
@@ -34,10 +42,6 @@ div.panels {
       @media #{$tablet} {
         width: 30%;
       }
-    }
-    img {
-      border-radius: 50%;
-      border: $border-style;
     }
   }
 }

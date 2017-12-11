@@ -27,7 +27,7 @@ h1.title {
 
 p.subtitle {
   color: #414535;
-  background: #7b929d;
+  background: linear-gradient(90deg, transparent, #7b929d, transparent);
   font-size: 1.5em;
   padding: 10px;
   position: relative;
@@ -136,6 +136,10 @@ div.panels article.panel {
   border: 3px solid #67597a;
   border-radius: 10px;
   margin: 10px auto; }
+  div.panels article.panel img {
+    border-radius: 50%;
+    width: 66%;
+    border: 3px solid #67597a; }
   @media screen and (min-width: 500px) {
     div.panels article.panel {
       display: flex;
@@ -143,7 +147,9 @@ div.panels article.panel {
       div.panels article.panel p {
         width: 70%; }
       div.panels article.panel:nth-of-type(even) div {
-        order: 1; } }
+        order: 1; }
+      div.panels article.panel img {
+        width: 100%; } }
   @media screen and (min-width: 900px) {
     div.panels article.panel {
       width: 30%;
@@ -157,8 +163,5 @@ div.panels article.panel {
     @media screen and (min-width: 500px) {
       div.panels article.panel div {
         width: 30%; } }
-  div.panels article.panel img {
-    border-radius: 50%;
-    border: 3px solid #67597a; }
 
 /*# sourceMappingURL=styles.css.map */

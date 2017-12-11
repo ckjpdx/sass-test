@@ -16,7 +16,7 @@ h1.title {
 }
 p.subtitle {
   color: $subtitle-color;
-  background: $subtitle-bg-color;
+  background: linear-gradient(90deg, transparent, $subtitle-bg-color, transparent);
   font-size: 1.5em;
   padding: 10px;
   position: relative;
